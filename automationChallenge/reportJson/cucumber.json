@@ -1,0 +1,172 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3298558953,
+              "status": "passed"
+            },
+            "match": {
+              "location": "automationChallengeStepDefinitions.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Recargas - Validaci�n valores preestablecidos",
+        "description": "",
+        "id": "compra-en-wong;recargas---validaci�n-valores-preestablecidos",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9968253941,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Estoy en la pagina",
+            "match": {
+              "location": "automationChallengeStepDefinitions.estoyEnLaPGina()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3852258,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Doy clic en \"Agregar Mini Chocotonne\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Agregar Mini Chocotonne",
+                  "offset": 13
+                }
+              ],
+              "location": "automationChallengeStepDefinitions.doyClicEn(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1409102,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Ingreso \"pruebas@gmail.com\" en el campo \"Mail para compra\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pruebas@gmail.com",
+                  "offset": 9
+                },
+                {
+                  "val": "Mail para compra",
+                  "offset": 41
+                }
+              ],
+              "location": "automationChallengeStepDefinitions.ingresoEnElCampo(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1186725,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Doy clic en \"Recojo en tienda\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Recojo en tienda",
+                  "offset": 13
+                }
+              ],
+              "location": "automationChallengeStepDefinitions.doyClicEn(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3938215,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Doy clic en \"Wong Asia\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Wong Asia",
+                  "offset": 13
+                }
+              ],
+              "location": "automationChallengeStepDefinitions.doyClicEn(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1131986,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Doy clic en \"Recojo aqu�\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Recojo aqu�",
+                  "offset": 13
+                }
+              ],
+              "location": "automationChallengeStepDefinitions.doyClicEn(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1238898,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Aparecera en pantalla el car \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 30
+                }
+              ],
+              "location": "automationChallengeStepDefinitions.aparecerEnPantallaElCar(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@feature"
+          }
+        ]
+      }
+    ],
+    "name": "Compra en wong",
+    "description": "  \t\tYO como usuario de wong\n  \t\tQUIERO agregar un producto a mi carrito de comprar\n  \t\tPARA realizar la compra de mis productos favoritos",
+    "id": "compra-en-wong",
+    "keyword": "Feature",
+    "uri": "src/test/resources/com/google/www/features/WongBuy.feature",
+    "tags": [
+      {
+        "name": "@feature",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
