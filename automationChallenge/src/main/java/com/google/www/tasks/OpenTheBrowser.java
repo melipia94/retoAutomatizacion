@@ -20,6 +20,7 @@ public class OpenTheBrowser implements Task {
 	public <T extends Actor> void performAs(T actor) {
 
 		actor.attemptsTo(Open.browserOn(page));
+		
 	}
 
 	public static OpenTheBrowser on(PageObject page) {

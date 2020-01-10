@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 3298558953,
+              "duration": 5155905800,
               "status": "passed"
             },
             "match": {
@@ -15,15 +15,15 @@
           }
         ],
         "line": 10,
-        "name": "Recargas - Validaci�n valores preestablecidos",
+        "name": "Compra de galletas oreo",
         "description": "",
-        "id": "compra-en-wong;recargas---validaci�n-valores-preestablecidos",
+        "id": "compra-en-wong;compra-de-galletas-oreo",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 9968253941,
+              "duration": 16217300300,
               "status": "passed"
             },
             "line": 11,
@@ -35,113 +35,61 @@
           },
           {
             "result": {
-              "duration": 3852258,
+              "duration": 11109043800,
               "status": "passed"
             },
             "line": 12,
-            "name": "Doy clic en \"Agregar Mini Chocotonne\"",
+            "name": "Busco el producto \"Galletas Oreo\"",
             "match": {
               "arguments": [
                 {
-                  "val": "Agregar Mini Chocotonne",
-                  "offset": 13
+                  "val": "Galletas Oreo",
+                  "offset": 19
                 }
               ],
-              "location": "automationChallengeStepDefinitions.doyClicEn(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1409102,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "Ingreso \"pruebas@gmail.com\" en el campo \"Mail para compra\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "pruebas@gmail.com",
-                  "offset": 9
-                },
-                {
-                  "val": "Mail para compra",
-                  "offset": 41
-                }
-              ],
-              "location": "automationChallengeStepDefinitions.ingresoEnElCampo(String,String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1186725,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "Doy clic en \"Recojo en tienda\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Recojo en tienda",
-                  "offset": 13
-                }
-              ],
-              "location": "automationChallengeStepDefinitions.doyClicEn(String)"
+              "location": "automationChallengeStepDefinitions.buscoElProducto(String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 3938215,
+              "duration": 1858369100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Aparecera en pantalla el producto \"Galletas Oren\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Galletas Oren",
+                  "offset": 35
+                }
+              ],
+              "location": "automationChallengeStepDefinitions.aparecerEnPantallaElProducto(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7012943100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Agrega el producto a mi carro de compras",
+            "match": {
+              "location": "automationChallengeStepDefinitions.agregaElProductoAMiCarroDeCompras()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3607054000,
               "status": "passed"
             },
             "line": 15,
-            "name": "Doy clic en \"Wong Asia\"",
+            "name": "En el carro de compra aprece el producto",
             "match": {
-              "arguments": [
-                {
-                  "val": "Wong Asia",
-                  "offset": 13
-                }
-              ],
-              "location": "automationChallengeStepDefinitions.doyClicEn(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1131986,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "Doy clic en \"Recojo aqu�\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Recojo aqu�",
-                  "offset": 13
-                }
-              ],
-              "location": "automationChallengeStepDefinitions.doyClicEn(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1238898,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "Aparecera en pantalla el car \"\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "",
-                  "offset": 30
-                }
-              ],
-              "location": "automationChallengeStepDefinitions.aparecerEnPantallaElCar(String)"
+              "location": "automationChallengeStepDefinitions.enElCarroDeCompraApreceElProducto()"
             },
             "keyword": "Then "
           }

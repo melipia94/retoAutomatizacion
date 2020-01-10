@@ -7,11 +7,9 @@ Feature: Compra en wong
   		QUIERO agregar un producto a mi carrito de comprar
   		PARA realizar la compra de mis productos favoritos
 
-  Scenario: Recargas - Validación valores preestablecidos
+  Scenario: Compra de galletas oreo
     Given Estoy en la pagina
-    And Doy clic en "Agregar Mini Chocotonne"
-    And Ingreso "pruebas@gmail.com" en el campo "Mail para compra"
-    When Doy clic en "Recojo en tienda"
-    And Doy clic en "Wong Asia"
-    And Doy clic en "Recojo aquí"
-    Then Aparecera en pantalla el car ""
+    When Busco el producto "Galletas Oreo"
+    Then Aparecera en pantalla el producto "Galletas Oren"
+    And Agrega el producto a mi carro de compras
+    Then En el carro de compra aprece el producto 
